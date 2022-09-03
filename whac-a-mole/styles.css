@@ -1,0 +1,56 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+.score {
+  display: flex;
+}
+.score-title {
+  color: teal;
+}
+.score-number {
+  margin-left: 10px;
+}
+
+.time-text {
+  color: red;
+}
+.time-number {
+  margin-left: 10px;
+}
+.time {
+  display: flex;
+  margin-left: 20px;
+}
+
+.board {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  width: 606px;
+  height: 606px;
+  margin-left: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid skyblue 1px;
+}
+
+.mole {
+  background-image: url("mole.jpg");
+  background-size: cover;
+}
